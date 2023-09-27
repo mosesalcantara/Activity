@@ -12,44 +12,57 @@
             background-color: #2A2625;
         }
         .logo{
-            width: 50px;
-            height: 50px;
-            padding: 15px;
+            width: 230px;
+            height: 150px;
+            margin-left: 30px;
         }
         .background{
             background-color: #2A2625;
-            height: 800px;
-        }
-        .left{
-            float: left;
-        }
-        .right{
-            float: right;
+            height: 700px;
         }
         .pic{
             padding: 100px;
             margin-right: 200px;
+            margin-top: 10px;
         }
         .title{
             color: white;
-            padding-top: 70px;
-            margin-left: 400px;
+            margin-top: 210px;
+            margin-left: 150px;
             font-size: 100px;
+            font-family: helvetica;
         }
         .description{
             color: white;
             font-size: 30px;
-            margin-left: 270px;
+            margin-left: 30px;
             font-family: Arial;
+        }
+        .nav{
+            margin-top: 35px;
+        }
+        .nav_text{
+            color: white;
+            display: inline; 
+            margin-right: 20px;
+            font-family: sans-serif;
         }
     </style>
 </head>
 <body>
     <div class="navbar">
-        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Team_Fortress_2_style_logo.svg/1024px-Team_Fortress_2_style_logo.svg.png" alt="">
+        <div style="float: left;">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/71/Team-Fortress-2-logo.png" alt="">
+        </div>
+        <div style="float: right; text-align: right;" class="nav">
+            <h1 class="nav_text">Home</h1>
+            <h1 class="nav_text">Movies</h1>
+            <h1 class="nav_text">Comics</h1>
+            <h1 class="nav_text">Artwork</h1>
+        </div>
     </div>
     <div class="background">
-        <div class="left">
+        <div style="float: left;">
             <h1 class="title">The Spy</h1>
             <p class="description">
                 He is a puzzle, wrapped in an enigma, shrouded <br>
@@ -59,7 +72,7 @@
                 For he is the Spy - globetrotting rogue, lady killer <br>
                 (metaphorically) and mankiller (for real).</p>
         </div>
-        <div class="right">
+        <div style="float: right;">
             <img class="pic" src="https://static.wikia.nocookie.net/teamfortress/images/3/36/Spy.png/revision/latest/scale-to-width-down/300?cb=20170717232237" alt="">
         </div>
     </div>
